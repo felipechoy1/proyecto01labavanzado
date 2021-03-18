@@ -15,14 +15,14 @@ _Es necesario tener instalado ROOT, g++ y BOOST_
 _Para compilar este programa se deben ejecutar las siguientes líneas de líneas de comando, OJO, esto es asumiendo que los archivos tienen el nombre de 1.paa, 2.paa,..., etc._
 
 ```
-$ cmake ..
-$ make
-$ ./paa_reader -i 1.paa -o dato01.root
-$ ./paa_reader -i 2.paa -o dato02.root
-$ ./paa_reader -i 3.paa -o dato03.root
-$ ./paa_reader -i 4.paa -o dato04.root
-$ ./paa_reader -i 5.paa -o dato05.root
-$ ./paa_reader -i 6.paa -o dato06.root
+cmake ..
+make
+./paa_reader -i 1.paa -o dato01.root
+./paa_reader -i 2.paa -o dato02.root
+./paa_reader -i 3.paa -o dato03.root
+./paa_reader -i 4.paa -o dato04.root
+./paa_reader -i 5.paa -o dato05.root
+./paa_reader -i 6.paa -o dato06.root
 ```
 _Seguido de esto ejecuta en la consola el comando._
 ```
