@@ -43,7 +43,7 @@ TFile *MyFile = new TFile("dato0.root","READ");
 _Para ajustar y desplegar basta con el comando_
 
 ```
-$ h1->Fit("Exp");
+h1->Fit("Exp");
 ```
 
 
